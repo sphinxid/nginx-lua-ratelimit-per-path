@@ -5,7 +5,7 @@ set_ratelimit_by_ip_and_path(ip, path, limit, period, lua_dict)
 
 Examples:
 
-This will implement rate limit on specific path (/exact/path) inside the `server` block
+This will implement rate limit on specific path (/exact/path) and prefixed path (/prefix/me) inside the `server` block
 ```
 server {
     listen       80;
