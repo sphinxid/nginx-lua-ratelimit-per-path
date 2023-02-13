@@ -1,5 +1,6 @@
 # nginx-lua-ratelimit-per-path
 Simple example in nginx to implement rate limit per IP address per Path using nginx Lua.
+The lua method implementation are defined in nginx.conf.
 
 **set_ratelimit_by_ip_and_path(ip, path, limit, period, lua_dict)**
 
